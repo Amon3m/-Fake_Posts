@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 data class PostsEntity(
 
 	@field:SerializedName("PostsEntity")
-	val postsEntity: List<PostsEntityItem?>? = null
+	val postsEntity: List<PostsEntityItem>
 )
 
 data class PostsEntityItem(

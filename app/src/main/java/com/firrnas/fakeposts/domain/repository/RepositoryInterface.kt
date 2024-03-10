@@ -1,8 +1,8 @@
 package com.firrnas.fakeposts.domain.repository
 
 import com.firrnas.fakeposts.domain.model.PostsModel
+import com.firrnas.fakeposts.util.Response
 import kotlinx.coroutines.flow.Flow
-import retrofit2.Response
 
 interface RepositoryInterface {
 
