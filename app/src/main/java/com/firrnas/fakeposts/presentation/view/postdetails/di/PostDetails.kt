@@ -1,4 +1,4 @@
-package com.firrnas.fakeposts.presentation.postdetails.di
+package com.firrnas.fakeposts.presentation.view.postdetails.di
 
 import com.firrnas.fakeposts.data.repository.Repository
 import com.firrnas.fakeposts.domain.usecase.GetPostsByIDUseCase
