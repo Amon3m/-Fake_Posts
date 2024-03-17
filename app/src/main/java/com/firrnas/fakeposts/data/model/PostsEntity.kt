@@ -2,11 +2,7 @@ package com.firrnas.fakeposts.data.model
 
 import com.google.gson.annotations.SerializedName
 
-data class PostsEntity(
-
-	@field:SerializedName("PostsEntity")
-	val postsEntity: List<PostsEntityItem>
-)
+typealias PostsEntity = List<PostsEntityItem>
 
 data class PostsEntityItem(
 

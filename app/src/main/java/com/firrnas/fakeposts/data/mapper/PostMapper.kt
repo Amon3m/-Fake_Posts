@@ -9,4 +9,4 @@ fun PostsEntityItem.toPostModel(): PostsModel =
         body = body, id = id, title = title, userId = userId
     )
 
-fun PostsEntity.toPostModel(): List<PostsModel> = this.postsEntity.map{ it.toPostModel()  }
+fun PostsEntity.toPostModel(): List<PostsModel> = this.map{ it.toPostModel()  }
