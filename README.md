@@ -11,6 +11,8 @@ Welcome to my implementation of Clean Architecture in Android development! This 
 - Sustainable Maintenance: Architectural principles pave the way for seamless maintenance and evolution of codebases over time.
 ## The Layers of Clean Architecture
 
+![1_q2AL8a9a1ZN6m5OxgLJMvg](https://github.com/Amon3m/Fake_Posts/assets/112562093/cece71c5-d2f9-4ce9-9468-209d0fd78d93)
+
 ### Presentation or App Layer:
 - This layer serves as the bridge between the UI and the application's core logic. It encapsulates Android components such as Activities, Fragments, ViewModels, etc., while harmonizing the domain and data layers.
 ### Domain Layer:
@@ -29,6 +31,8 @@ Utilized to manage data access and abstract the origin of the data, Serving as t
 ### Mappers: 
  facilitate the transformation of data from one form to another. While it may be tempting to use raw server models to populate UI elements, adhering to best practices dictates mapping server models to app models a practice that fosters clarity and maintainability.
 ## The Flow of Data in Clean Architecture
+
+![1_LldbQQRy3_ujZHbUU7X64Q](https://github.com/Amon3m/Fake_Posts/assets/112562093/1e983fe1-8750-425a-9205-56f0b154cff4)
 
  data flows seamlessly through the application's layers. When a user event is triggered in the UI, the ViewModel or presenter orchestrates the necessary actions, invoking UseCases to procure the requisite data. Subsequently, UseCases interact with repositories to retrieve data from diverse sources such as networks or databases.
 
